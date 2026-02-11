@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="gb2312">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天舟 - 首页</title>
+    <style>
+        /* 导航栏样式 */
+        .sidebar {
+            width: 270px;
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            background: #f0f0f0;
+            padding: 20px;
+            overflow-y: auto;
+            font-family: Arial, DengXian, Microsoft YaHei, sans-serif;
+        }
+        
+        .sidebar h3 {
+            margin-top: 0;
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        
+        .sidebar ul {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+        }
+        
+        .sidebar ul ul {
+            padding-left: 20px;
+        }
+        
+        .sidebar li {
+            margin: 5px 0;
+        }
+        
+        .sidebar a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        
+        .sidebar a:hover {
+            background-color: #e0e0e0;
+        }
+        
+        /* 内容区域样式 */
+        .content {
+            margin-left: 290px;
+            padding: 20px;
+            font-family: Arial, DengXian, Microsoft YaHei, sans-serif;
+        }
+        
+        /* 首页样式 */
+        .home-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .home-header h1 {
+            margin: 0;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .home-header p {
+            margin: 10px 0 0 0;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        
+        .feature-card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .feature-card h3 {
+            color: #333;
+            margin-top: 0;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .feature-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .feature-card a {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 16px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        .feature-card a:hover {
+            background: #5a6fd8;
+        }
+        
+        /* 页脚样式 */
+        .footer {
+            margin-top: 60px;
+            padding: 30px 0;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            color: #666;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                position: relative;
+                height: auto;
+                max-height: 300px;
+            }
+            .content {
+                margin-left: 0;
+            }
+            
+            .home-header {
+                padding: 40px 20px;
+            }
+            
+            .home-header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+<script src="nav.js"></script></head>
+<body>
+    <div class="sidebar">
+        <h3>天舟导航</h3>
+        <ul>
+            <li><a href="01 天舟国度\01 天舟国度.html" target="_top">01 天舟国度</a>
+                <ul>
+                    <li><a href="01 天舟国度\01 宇宙的中心：天舟星\宇宙的中心：天舟星.html" target="_top">宇宙的中心：天舟星</a>
+                        <ul>
+                            <li><a href="01 天舟国度\01 宇宙的中心：天舟星\历法.html" target="_top">历法</a></li>
+                            <li><a href="01 天舟国度\01 宇宙的中心：天舟星\天舟星地图\天舟星地图.htm" target="_top">天舟星地图</a>
+                                <ul>
+                                    <li><a href="01 天舟国度\01 宇宙的中心：天舟星\天舟星地图\西洲国家和地区\西洲国家和地区.html" target="_top">西洲国家和地区</a></li>
+                                    <li><a href="01 天舟国度\01 宇宙的中心：天舟星\天舟星地图\东洲的国家和地区\东洲的国家和地区.html" target="_top">东洲的国家和地区</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="01 天舟国度\01 宇宙的中心：天舟星\经济.html" target="_top">经济</a></li>
+                            <li><a href="01 天舟国度\01 宇宙的中心：天舟星\语言.html" target="_top">语言</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="01 天舟国度\03 天舟国度的诸神\天舟国度的诸神.html" target="_top">天舟国度的诸神</a></li>
+                    <li><a href="01 天舟国度\02 天舟国度的位面学.html" target="_top">天舟国度的位面学</a></li>
+                </ul>
+            </li>
+            <li><a href="02 新的冒险\02 新的冒险.html" target="_top">02 新的冒险</a>
+                <ul>
+                    <li><a href="02 新的冒险\01 种族\种族.html" target="_top">01 种族</a></li>
+                    <li><a href="02 新的冒险\02 职业\02 职业.html" target="_top">02 职业</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="home-header">
+            <h1>天舟</h1>
+            <p>欢迎来到天舟的世界，开始你的冒险之旅</p>
+        </div>
+        
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>天舟国度</h3>
+                <p>探索天舟星的各个角落，了解这个充满魔法与奇迹的世界。从宇宙的中心到各个国家和地区，从诸神的传说到位面的奥秘，这里应有尽有。</p>
+                <a href="01 天舟国度\01 天舟国度.html">开始探索</a>
+            </div>
+            
+            <div class="feature-card">
+                <h3>新的冒险</h3>
+                <p>创建你的角色，选择你的职业，踏上冒险之旅。这里有丰富的种族选择，多样化的职业道路，以及无尽的冒险等待着你。</p>
+                <a href="02 新的冒险\02 新的冒险.html">开始冒险</a>
+            </div>
+            
+            <div class="feature-card">
+                <h3>怪物图鉴</h3>
+                <p>了解天舟世界中的各种生物和怪物，从普通的野兽到强大的巨龙，从邪恶的魔鬼到神圣的天使。这里有详细的怪物信息和战斗策略。</p>
+                <a href="03 怪物图鉴\01 《自然风光》\《自然风光》.html">查看图鉴</a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2026 天舟 - 版本 2.0.9</p>
+        </div>
+    </div>
+</body>
+</html>
+
