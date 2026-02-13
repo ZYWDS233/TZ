@@ -10,15 +10,14 @@ if (lang=='zh-cn') { lang = 'cn';}
 
 lang = lang.substr(0,2).toLowerCase();
 
-// 强制使用中文，确保目录显示正确
-lang = "cn";
+lang="en";
 
 if(lang=='de'){/////////////////////////////German////////////////////////////////////////////////////
 
-strings["目录"]                                  = "Inhalt";
-strings["索引"]                                  = "Index";
-strings["搜索"]                                  = "Suche";
-strings["书签"]                                  = "Lesezeichen";
+strings["Contents"]                              = "Inhalt";
+strings["Index"]                                 = "Index";
+strings["Search"]                                = "Suche";
+strings["Bookmark"]                              = "Lesezeichen";
 
 strings["Loading the data for search..."]        = "Laden der Daten für die Suche ...";
 strings["Type in the word(s) to search for:"]    = "Geben Sie das Wort für die Suche nach:";
@@ -248,16 +247,6 @@ strings["Contents"]                              ="目录";
 strings["Index"]                                 ="索引";
 strings["Search"]                                ="搜索";
 strings["Bookmark"]                              ="书签";
-
-// 添加中文键的映射，与webhelptop.htm和webhelptoolbar.htm中的使用保持一致
-strings["目录"]                                  ="目录";
-strings["索引"]                                  ="索引";
-strings["搜索"]                                  ="搜索";
-strings["书签"]                                  ="书签";
-strings["全部展开"]                              ="显示所有";
-strings["全部收起"]                              ="隐藏所有";
-strings["上一个"]                                ="上一个";
-strings["下一个"]                                ="下一个";
 
 strings["Loading the data for search..."]        ="正在加载要搜索的数据...";
 strings["Type in the word(s) to search for:"]    ="输入要搜索的关键词：";
