@@ -10,10 +10,7 @@ if (lang=='zh-cn') { lang = 'cn';}
 
 lang = lang.substr(0,2).toLowerCase();
 
-// 锁定为简体中文
-lang = 'cn';
-
-
+lang="en";
 
 if(lang=='de'){/////////////////////////////German////////////////////////////////////////////////////
 
