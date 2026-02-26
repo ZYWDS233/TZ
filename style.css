@@ -10,17 +10,17 @@ A:hover.tab2 {text-decoration: none; color: #FFFF00 }
 
 .label {
 	font-family: "Geneva", "Arial", "Helvetica", "sans-serif";
-	font-size: 14px;
+	font-size: 12px;
 }
 .tab {
 	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
-	font-size: 15px;
+	font-size: 13px;
 	color: #FFFFFF;
 
 }
 .tab2 {
 	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
-	font-size: 15px;
+	font-size: 13px;
 	color: #000000;
 	font-weight: bold;
 }
@@ -53,7 +53,7 @@ A:hover.tab2 {text-decoration: none; color: #FFFF00 }
 	border-top-color: #FFFFFF;
 	border-right-color: #666666;
 	border-left-color: #FFFFFF;
-	font-size: 12px;
+	font-size: 10px;
 	cursor: pointer;
 }
 
@@ -70,7 +70,7 @@ A:hover.tab2 {text-decoration: none; color: #FFFF00 }
 	border-right-color: #DCDBD6;
 	border-left-color: #DCDBD6;
 	border-bottom-color:#DCDBD6;
-	font-size: 12px;
+	font-size: 10px;
 
 }
 
@@ -85,6 +85,6 @@ A:hover.tab2 {text-decoration: none; color: #FFFF00 }
 	border-top-color: #666666;
 	border-right-color: #FFFFFF;
 	border-left-color: #666666;
-	font-size: 12px;
+	font-size: 10px;
 	cursor: pointer;
 }
